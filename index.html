@@ -31,11 +31,11 @@ html, body {
 }
 
 .left-section img {
-     width: 100%;
+    width: calc(100% - 2cm); /* réduit la largeur sans couper l'image */
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* garde toute l’image visible */
     position: relative;
-    left: 1cm; /* décale l'image de 2 cm vers la droite */
+    left: 0.5cm; /* ton décalage */
 }
 
 /* Partie droite (1/3) - slider d’images */
